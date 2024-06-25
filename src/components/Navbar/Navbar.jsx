@@ -15,18 +15,19 @@ const Navbar = () => {
         <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="w-12 h-12" />
+          <img src={logo} alt="Logo" className="w-12 h-12" />
           </div>
 
           {/* Nav Links - Desktop */}
-          <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4">
+          <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4 font-medium  ">
           {/* <NavLink href="/home">HOME</NavLink>
               <NavLink href="/about">ABOUT</NavLink>
               <NavLink href="/news">NEWS</NavLink>
               <NavLink href="/contact">CONTACT</NavLink> */}
-              <Link to={"/home"}>Home</Link>
-              <Link to={"/about"}>About</Link>
-              <Link to={"/news"}>News</Link>
+               <Link to={"/home"}>HOME</Link>
+              <Link to={"/about"}>ABOUT</Link>
+              <Link to={"/news"}>NEWS</Link>
+              <Link to={"/contact"}>CONTACT</Link>
               
           </div>
 
@@ -62,14 +63,15 @@ const Navbar = () => {
             </div>
 
             {/* Navigation Links */}
-            <div className="flex flex-col items-end justify-center space-y-10 pl-16" onClick={toggleMenu}>
+            <div className="flex flex-col items-center justify-center space-y-16 text-2xl font-medium " onClick={toggleMenu}>
               {/* <NavLink href="#home">HOME</NavLink>
               <NavLink href="#about">ABOUT</NavLink>
               <NavLink href="#news">NEWS</NavLink>
               <NavLink href="#contact">CONTACT</NavLink> */}
-              <Link to={"/home"}>Home</Link>
-              <Link to={"/about"}>About</Link>
-              <Link to={"/news"}>News</Link>
+              <Link to={"/home"}>HOME</Link>
+              <Link to={"/about"}>ABOUT</Link>
+              <Link to={"/news"}>NEWS</Link>
+              <Link to={"/contact"}>CONTACT</Link>
             </div>
           </div>
         </div>
