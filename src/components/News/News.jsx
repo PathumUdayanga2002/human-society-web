@@ -2,10 +2,10 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
+import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const News = () => {
   const NextArrow = (props) => {
@@ -31,7 +31,9 @@ const News = () => {
   };
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 3000, // Adjust autoplay speed as needed
     speed: 600,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -44,7 +46,7 @@ const News = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
+          infinite: false,
           dots: true,
         },
       },
@@ -80,7 +82,9 @@ const News = () => {
         <div>
           <h1 className=" font-inter text-3xl font-bold md:text-4xl">NEWS</h1>
         </div>
-        <p className=" text-xl opacity-80 md:text-2xl font-semibold font-inter mt-5">Lorem ipsum dolor sit amet</p>
+        <p className=" text-xl opacity-80 md:text-2xl font-semibold font-inter mt-5">
+          Lorem ipsum dolor sit amet
+        </p>
       </div>
       <div className=" font-poppins w-3/5 m-auto ">
         <div className=" slider-container ">
@@ -98,23 +102,19 @@ const News = () => {
                   </div>
                 </div>
               </div>
-              
             ))}
           </Slider>
         </div>
         <div className="flex items-end justify-end mt-10 gap-4 flex-row">
           <div className="flex justify-center items-center flex-row gap-4">
-          <div className=" font-inter text-sm md:text-xl">
-          CLICK FOR MORE
-          </div>
-          <a href="/moreNews">
-          <button className=" cursor-pointer border-none text-2xl  ">
-           
-           <div className=" md:text-3xl mt-2 ">
-           <IoArrowForwardCircleOutline  />
-           </div>
-           </button>
-          </a>
+            <div className=" font-inter text-sm md:text-xl">CLICK FOR MORE</div>
+            <a href="/moreNews">
+              <button className=" cursor-pointer border-none text-2xl  ">
+                <div className=" md:text-3xl mt-2 ">
+                  <IoArrowForwardCircleOutline />
+                </div>
+              </button>
+            </a>
           </div>
         </div>
       </div>
