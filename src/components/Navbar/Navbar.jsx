@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import logo from "../../assets/logo.png"; // Adjust the path to your logo
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,10 +20,14 @@ const Navbar = () => {
 
           {/* Nav Links - Desktop */}
           <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4">
-          <NavLink href="#home">HOME</NavLink>
-              <NavLink href="#about">ABOUT</NavLink>
-              <NavLink href="#news">NEWS</NavLink>
-              <NavLink href="#contact">CONTACT</NavLink>
+          {/* <NavLink href="/home">HOME</NavLink>
+              <NavLink href="/about">ABOUT</NavLink>
+              <NavLink href="/news">NEWS</NavLink>
+              <NavLink href="/contact">CONTACT</NavLink> */}
+              <Link to={"/home"}>Home</Link>
+              <Link to={"/about"}>About</Link>
+              <Link to={"/news"}>News</Link>
+              
           </div>
 
           {/* Mobile Menu Button */}
@@ -59,10 +63,13 @@ const Navbar = () => {
 
             {/* Navigation Links */}
             <div className="flex flex-col items-end justify-center space-y-10 pl-16" onClick={toggleMenu}>
-              <NavLink href="#home">HOME</NavLink>
+              {/* <NavLink href="#home">HOME</NavLink>
               <NavLink href="#about">ABOUT</NavLink>
               <NavLink href="#news">NEWS</NavLink>
-              <NavLink href="#contact">CONTACT</NavLink>
+              <NavLink href="#contact">CONTACT</NavLink> */}
+              <Link to={"/home"}>Home</Link>
+              <Link to={"/about"}>About</Link>
+              <Link to={"/news"}>News</Link>
             </div>
           </div>
         </div>
