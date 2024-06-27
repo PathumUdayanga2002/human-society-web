@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         inter: ["inter", "sans-serif"],
       },
+      margin: {
+        '8p': '8%',
+      }
     },
   },
   plugins: [],
