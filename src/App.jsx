@@ -4,15 +4,13 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
+import MeetExco from "./components/MeetExco/MeetExco";
 
 const App = () => {
   return (
-    <Router>
-     
-      
-
+    <><Router>
       <div>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/news" exact element={<News />} />
           <Route path="/about" exact element={<AboutUs />} />
@@ -20,6 +18,12 @@ const App = () => {
         </Routes>
       </div>
     </Router>
+    <div>
+      <Home />
+      <AboutUs/>
+      <MeetExco/>
+      <News/>
+    </div></>
   );
 };
 
