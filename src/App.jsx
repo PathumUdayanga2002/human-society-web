@@ -5,6 +5,8 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import News from "./components/News/News";
 import MeetExco from "./components/MeetExco/MeetExco";
+import DiscoverMore from "./components/DiscoverMore/discovermore";
+
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <AboutUs/>
       <MeetExco/>
       <News/>
+      <DiscoverMore/>
+
     </div></>
   );
 };
