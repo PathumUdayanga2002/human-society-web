@@ -12,34 +12,29 @@ const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 10000); // 30000 milliseconds = 30 seconds
+    }, 10000); // 10000 milliseconds = 10 seconds
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div>
-      
-     
-      <div className=' flex '> 
-        <div className='relative '> 
-          <img className='  py-[0px] h-[650px] w-[1400px]' src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
+    <div className='relative h-[650px]'>
+      <img className='w-full h-full object-cover' src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
+      <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-30'>
+        <div className='text-left text-white text-opacity-90 p-4 md:p-8'>
+          <p className='text-xl md:text-3xl'>DISCOVER</p>
+          <p className='2xl:text-12xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-7xl text-4xl font-bold tracking-widest'>LIFE FOR A PAW MAGAZINE</p>
+          <p className='mt-4 text-sm md:text-xl leading-relaxed'>
+            HUMANE SOCIETY'S BIGGEST PROJECT REVOLVING AROUND ANIMAL HEALTHCARE AND WELFARE... 
+            <br />AND WHAT ELSE. I NEED SOMETHING TO FILL UP THIS BLANK SPACE.
+          </p>
+          <p className='font-bold text-base mt-3'>SEE MORE</p>
         </div>
-        <div className='absolute text-left ml-8p  py-[110px] text-white   text-opacity-70 '> 
-            <p className='text-3xl'>DICOVER</p>
-            <p className='2xl:text-12xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-7xl text-6xl tracking-widest font-bold'>LIFE FOR A PAW MAGAZINE</p>
-            <p className='leading-5 mt-9 tracking-tighter text-lg'>HUMANE SOCIETYS BIGGEST PROJECT REVOLVING <p>AROUND ANIMAL HEALTHCARE AND WALFARE...AND </p> WAHT ELSE .I NEED SOMETHING TO FILL UP THIS<p> BLANK SPACE.</p> </p>
-            <p className='font-bold text-lg mt-3'>SEE MORE</p>
-          </div>
-          <div className='absolute  border-none py-[327px] px-[350px] bg-white bg-opacity-20'><p></p></div>
+        <div className='absolute left-0 top-0 border-none py-[327px] xl:px-[350px] lg:px-[280px] bg-white bg-opacity-20'></div>
 
-
-         
-       
       </div>
-     
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
