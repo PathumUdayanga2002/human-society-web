@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../../assets/logo.png"; // Adjust the path to your logo
+import Society_logo from "../../assets/Society text Logo.png"; 
 import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +10,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 z-50 w-full shadow-lg navbar font-krona bg-gray-200">
+    <nav className="fixed top-0 left-0 z-50 w-full shadow-lg navbar font-krona bg-gray-700 bg-opacity-50  ">
       <div className="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-          <img src={logo} alt="Logo" className="w-12 h-12" />
-          </div>
+          <img
+              src={Society_logo}
+              alt="Logo"
+              className="w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48"
+            />          </div>
 
           {/* Nav Links - Desktop */}
           <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4 font-medium  ">
