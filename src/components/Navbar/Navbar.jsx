@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 z-50 w-full shadow-lg navbar font-krona bg-gray-700 bg-opacity-50  ">
+    <nav className="fixed top-0 left-0 z-50 w-full shadow-lg navbar font-krona bg-black">
       <div className="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
@@ -22,15 +22,15 @@ const Navbar = () => {
             />          </div>
 
           {/* Nav Links - Desktop */}
-          <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4 font-medium  ">
+          <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-4 font-medium text-gray-400">
           {/* <NavLink href="/home">HOME</NavLink>
               <NavLink href="/about">ABOUT</NavLink>
               <NavLink href="/news">NEWS</NavLink>
               <NavLink href="/contact">CONTACT</NavLink> */}
-               <Link to={"/home"}>HOME</Link>
-              <Link to={"/about"}>ABOUT</Link>
-              <Link to={"/news"}>NEWS</Link>
-              <Link to={"/contact"}>CONTACT</Link>
+               <Link to={"/home"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">HOME</Link>
+              <Link to={"/about"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">ABOUT</Link>
+              <Link to={"/news"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">NEWS</Link>
+              <Link to={"/contact"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">CONTACT</Link>
               
           </div>
 
