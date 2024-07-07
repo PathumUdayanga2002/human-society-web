@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className='relative h-[650px] mt-14'>
+    <div id='home' className='relative h-[650px] mt-14'>
       <img className='w-full h-full object-cover' src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
       <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-30'>
         <div className='text-left text-white text-opacity-90 p-4 md:p-8'>

@@ -9,9 +9,11 @@ import DiscoverMore from "./components/DiscoverMore/discovermore";
 import Footer from "./components/Footer/Footer";
 
 
+
 const App = () => {
   return (
-    <><Router>
+    <>
+    {/*<Router>
       <div>
         <Navbar />
         <Routes>
@@ -20,8 +22,9 @@ const App = () => {
           <Route path="/home" exact element={<Home />} />
         </Routes>
       </div>
-    </Router>
+    </Router>*/}
     <div>
+      <Navbar/>
       <Home />
       <AboutUs/>
       <MeetExco/>

@@ -6,6 +6,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import { Link } from "react-router-dom";
 
 const News = () => {
   const NextArrow = (props) => {
@@ -77,7 +78,7 @@ const News = () => {
     ],
   };
   return (
-    <div className=" bg-white py-10 font-poppins mb-5 mt-[100px]">
+    <div id='news' className=" bg-white py-10 font-poppins mb-5 mt-[100px]">{/*link update */}
       <div className="flex flex-col items-center justify-center mb-5">
         <div>
           <h1 className=" font-inter text-3xl font-bold md:text-4xl">NEWS</h1>
@@ -107,7 +108,7 @@ const News = () => {
         </div>
         <div className="flex items-end justify-end mt-10 gap-4 flex-row">
           <div className="flex justify-center items-center flex-row gap-4">
-            <div className=" font-inter text-sm md:text-xl">CLICK FOR MORE</div>
+            <Link to="/newspage"><div className=" font-inter text-sm md:text-xl">CLICK FOR MORE</div>{/* link update.linked to the News page */}
             <a href="/moreNews">
               <button className=" cursor-pointer border-none text-2xl  ">
                 <div className=" md:text-3xl mt-2 ">
@@ -115,6 +116,7 @@ const News = () => {
                 </div>
               </button>
             </a>
+            </Link>
           </div>
         </div>
       </div>

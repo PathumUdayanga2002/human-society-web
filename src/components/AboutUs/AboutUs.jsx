@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id='about'>{/* link update. */}
       <h1 className=' flex justify-center py-[100px]'>AboutUs</h1>
     </div>
   )
