@@ -4,10 +4,12 @@ import App from './App.jsx'
 import './index.css'
 import MeetExcoPage from './components/MeetExcoPage/MeetExcoPage.jsx'
 import NewsPage from './components/NewsPage/NewsPage.jsx'
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { ImOffice } from 'react-icons/im'
 
 const Router = createBrowserRouter([
   {
@@ -22,6 +24,10 @@ const Router = createBrowserRouter([
   {
     path: "/newspage",
     element: <NewsPage/>,
+  },
+  {
+    path: "/backhome",
+    element: <App/>,
   },
   
   
