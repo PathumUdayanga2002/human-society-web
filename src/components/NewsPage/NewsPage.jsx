@@ -17,6 +17,7 @@ const NewsPage = () => {
     { id: 8, title: 'News Segment 8', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
     { id: 9, title: 'News Segment 9', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
     { id: 10, title: 'News Segment 10', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
+
   ];
 
 
