@@ -40,7 +40,7 @@ const NewsPage = () => {
           <div key={segment.id} className="flex items-center border-black-100 border-2 bg-white rounded-[20px] mb-[80px] h-[500px] transition duration-300 ease-in-out transform hover:scale-105">
             <div className="p-4">
               {/* Replace with your image */}
-              <img src={`/src/assets/news${segment.id}.jpg`} className="ml-[10px] h-[450px] w-[1500px] rounded-[20px]" alt="News Image" />
+              <img src={`/src/assets/news/news${segment.id}.jpg`} className="ml-[10px] h-[450px] w-[1500px] rounded-[20px]" alt="News Image" />
             </div>
             <div className="p-[50px]">
               <p className="text-4xl text-black font-bold mb-[20px]">{segment.title}</p>
