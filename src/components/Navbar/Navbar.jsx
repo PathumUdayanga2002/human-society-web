@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import Society_logo from "../../assets/Society text Logo.png";
-import { Link } from "react-router-dom"; 
-Navbar = () => {
+import Society_logo from "../../assets/Society text Logo.png"; 
+import { HashLink as Link } from "react-router-hash-link";  /*HashLink use to navigate section of home page.use this install hashlink-"npm install --save react-router-hash-link"*/
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -27,10 +27,10 @@ Navbar = () => {
               <NavLink href="/about">ABOUT</NavLink>
               <NavLink href="/news">NEWS</NavLink>
               <NavLink href="/contact">CONTACT</NavLink> */}
-               <Link to={"/home"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">HOME</Link>
-              <Link to={"/about"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">ABOUT</Link>
-              <Link to={"/news"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">NEWS</Link>
-              <Link to={"/contact"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">CONTACT</Link>
+               <Link to={"#home"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">HOME</Link>
+              <Link to={"#about"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">ABOUT</Link>
+              <Link to={"#news"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">NEWS</Link>
+              <Link to={"#contact"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">CONTACT</Link>
               
           </div>
 

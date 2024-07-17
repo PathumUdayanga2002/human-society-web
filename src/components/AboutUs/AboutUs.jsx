@@ -1,18 +1,9 @@
-import React, { useEffect } from 'react';
+import React from "react";
 import avatar from "../../assets/avatar.png";
 import timeline from "../../assets/timeline.jpg";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../Footer/Footer";
 const AboutUs = () => {
-  useEffect(() => {
-    window.scroll(0, 0);
-  }, []);
-
-
   return (
-   <div>
-    <div  className=" p-10 md:p-20 ">
-     <Navbar/>
+    <div id="about" className=" p-10 md:p-20 ">
       {/* link update. */}
       <div>
         <h1 className=" font-inter justify-center items-center flex  font-bold text-3xl uppercase md:text-4xl md:justify-start text-center">
@@ -151,15 +142,9 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
-          
         </div>
-        
       </div>
-      
-      </div>\
-      <Footer/>
     </div>
-    
   );
 };
 

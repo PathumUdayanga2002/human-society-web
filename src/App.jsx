@@ -7,7 +7,6 @@ import News from "./components/News/News";
 import MeetExco from "./components/MeetExco/MeetExco";
 import DiscoverMore from "./components/DiscoverMore/discovermore";
 import Footer from "./components/Footer/Footer";
-import AboutUsHome from "./components/AboutUsHome/AboutUsHome";
 
 
 
@@ -27,7 +26,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Home />
-      <AboutUsHome/>
+      <AboutUs/>
       <MeetExco/>
       <News/>
       <DiscoverMore/>
