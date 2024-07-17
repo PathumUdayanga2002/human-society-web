@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import MeetExcoPage from './components/MeetExcoPage/MeetExcoPage.jsx'
 import NewsPage from './components/NewsPage/NewsPage.jsx'
+import AboutUs from './components/AboutUs/AboutUs.jsx'
 
 import {
   createBrowserRouter,
@@ -29,6 +30,11 @@ const Router = createBrowserRouter([
     path: "/backhome",
     element: <App/>,
   },
+  {
+    path: "/about",
+    element: <AboutUs/>,
+  },
+  
   
   
 ]);

@@ -1,8 +1,12 @@
 import React from "react";
 import avatar from "../../assets/avatar.png";
 import timeline from "../../assets/timeline.jpg";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 const AboutUs = () => {
   return (
+    <div>
+      <Navbar/>
     <div id="about" className=" p-10 md:p-20 ">
       {/* link update. */}
       <div>
@@ -144,6 +148,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };
