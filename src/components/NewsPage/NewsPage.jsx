@@ -21,6 +21,7 @@ const NewsPage = () => {
     { id: 12, title: 'News Segment 12', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
     { id: 13, title: 'News Segment 13', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
   ];
+  
 
   // Pagination configuration
   const segmentsPerPage = 5;
