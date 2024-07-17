@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const DiscoverMore = () => {
   const [formData, setFormData] = useState({
@@ -123,6 +124,11 @@ const DiscoverMore = () => {
         </div>
       </form>
       {status && <p className="mt-4 text-center">{status}</p>}
+
+    
+     
+      
+     
     </div>
   );
 };

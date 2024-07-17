@@ -7,11 +7,14 @@ import News from "./components/News/News";
 import MeetExco from "./components/MeetExco/MeetExco";
 import DiscoverMore from "./components/DiscoverMore/discovermore";
 import Footer from "./components/Footer/Footer";
+import AboutUsHome from "./components/AboutUsHome/AboutUsHome"
+
 
 
 const App = () => {
   return (
-    <><Router>
+    <>
+    {/*<Router>
       <div>
         <Navbar />
         <Routes>
@@ -20,10 +23,11 @@ const App = () => {
           <Route path="/home" exact element={<Home />} />
         </Routes>
       </div>
-    </Router>
+    </Router>*/}
     <div>
+      <Navbar/>
       <Home />
-      <AboutUs/>
+      <AboutUsHome/>
       <MeetExco/>
       <News/>
       <DiscoverMore/>

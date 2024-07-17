@@ -20,7 +20,6 @@ const NewsPage = () => {
 
   ];
 
-
   // Pagination configuration
   const segmentsPerPage = 5;
   const indexOfLastSegment = currentPage * segmentsPerPage;
