@@ -17,11 +17,8 @@ const NewsPage = () => {
     { id: 8, title: 'News Segment 8', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
     { id: 9, title: 'News Segment 9', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
     { id: 10, title: 'News Segment 10', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
-    { id: 11, title: 'News Segment 11', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
-    { id: 12, title: 'News Segment 12', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
-    { id: 13, title: 'News Segment 13', content: 'Sed ut perspiciatis,unde omnis iste natuserror sit voluptatem ditaut fugit, sed quia' },
   ];
-  
+
 
   // Pagination configuration
   const segmentsPerPage = 5;
@@ -41,7 +38,7 @@ const NewsPage = () => {
           <div key={segment.id} className="flex items-center border-black-100 border-2 bg-white rounded-[20px] mb-[80px] h-[500px] transition duration-300 ease-in-out transform hover:scale-105">
             <div className="p-4">
               {/* Replace with your image */}
-              <img src={`/src/assets/news${segment.id}.jpg`} className="ml-[10px] h-[450px] w-[1500px] rounded-[20px]" alt="News Image" />
+              <img src={`/src/assets/news/news${segment.id}.jpg`} className="ml-[10px] h-[450px] w-[1500px] rounded-[20px]" alt="News Image" />
             </div>
             <div className="p-[50px]">
               <p className="text-4xl text-black font-bold mb-[20px]">{segment.title}</p>
