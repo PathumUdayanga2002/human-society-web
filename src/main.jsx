@@ -5,6 +5,7 @@ import './index.css'
 import MeetExcoPage from './components/MeetExcoPage/MeetExcoPage.jsx'
 import NewsPage from './components/NewsPage/NewsPage.jsx'
 import AboutUs from './components/AboutUs/AboutUs.jsx'
+import MaintainPage from './components/MaintainPage/MaintainPage.jsx'
 
 import {
   createBrowserRouter,
@@ -41,6 +42,10 @@ const Router = createBrowserRouter([
   {
     path: "/news",
     element: <NewsPage/>,
+  },
+  {
+    path: "/donate",
+    element: <MaintainPage/>,
   },
   
   

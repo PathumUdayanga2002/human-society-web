@@ -31,7 +31,7 @@ const Navbar = () => {
                <Link to={"/home"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">HOME</Link>
               <Link to={"/about"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">ABOUT</Link>
               <Link to={"/news"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">NEWS</Link>
-              <Link to={"/contact"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">CONTACT</Link>
+              <Link to={"/donate"} className="rounded-md hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">DONATE</Link>
               
           </div>
 
@@ -72,10 +72,10 @@ const Navbar = () => {
               <NavLink href="#about">ABOUT</NavLink>
               <NavLink href="#news">NEWS</NavLink>
               <NavLink href="#contact">CONTACT</NavLink> */}
-              <Link to={"#home"}>HOME</Link>
-              <Link to={"#about"}>ABOUT</Link>
-              <Link to={"#news"}>NEWS</Link>
-              <Link to={"#contact"}>CONTACT</Link>
+              <Link to={"/home"}>HOME</Link>
+              <Link to={"/about"}>ABOUT</Link>
+              <Link to={"/news"}>NEWS</Link>
+              <Link to={"/donate"}>DONATE</Link>
             </div>
           </div>
         </div>
