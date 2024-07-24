@@ -4,6 +4,7 @@ const images = [
   '/image1.jpg',
   '/image2.jpg',
   '/image3.jpg',
+  '/image4.jpg',
 ];
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div id='home' className='relative h-[650px] mt-14 font-poppins'>
+    <div id='home' className='relative h-[650px] mt-14 font-inter'>
       <img className='w-full h-full object-cover' src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
       <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-30'>
         <div className='text-left text-white text-opacity-90 p-4 md:p-8'>
