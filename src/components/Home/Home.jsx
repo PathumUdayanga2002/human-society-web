@@ -31,7 +31,7 @@ const Home = () => {
           </p>
           <p className='font-bold text-base mt-3'>SEE MORE</p>
         </div>
-        <div className='absolute left-0 top-0 border-none py-[327px] xl:px-[350px] lg:px-[280px] bg-white bg-opacity-20'></div>
+        <div className='absolute left-0 top-0 border-none py-[325px] xl:px-[350px] lg:px-[280px] bg-white bg-opacity-20'></div>
 
       </div>
     </div>

@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["inter", "sans-serif"],
+        inter: ["inter", ],
+        alata: ["Alata", ],
+
       },
       margin: {
         '8p': '8%',
