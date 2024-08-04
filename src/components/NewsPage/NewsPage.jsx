@@ -31,16 +31,16 @@ const NewsPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className='font-bold text-5xl flex justify-center pt-[100px] pb-[50px]'>Discover the Latest Stories from the Humane Society</h1>
-      <div className="mx-auto px-[250px]">
+      <h1 className='font-bold text-center pt-[100px] pb-[50px] sm:text-3xl md:text-4xl lg: text-4xl'>Discover the Latest Stories from the Humane Society</h1>
+      <div className="items-center md:px-[100px] lg: px-[10px] xl:px-[450px]">
         {currentSegments.map(segment => (
-          <div key={segment.id} className="flex items-center border-black-100 border-2 bg-white rounded-[20px] mb-[80px] h-[500px] transition duration-300 ease-in-out transform hover:scale-105">
-            <div className="p-4">
+          <div key={segment.id} className="flex items-center border-black-100 border-2 bg-white rounded-[20px] sm: h-[250px] w-[500px] mb-[40px] lg:h-[300px] w-[600px] mb-[50px] transition duration-300 ease-in-out transform hover:scale-105">
+            <div className="p-4 ">
               {/* Replace with your image */}
-              <img src={`/src/assets/news/news${segment.id}.jpg`} className="ml-[10px] h-[450px] w-[500px] rounded-[20px]" alt="News Image" />
+              <img src={`/src/assets/news/news${segment.id}.jpg`} className="ml-[10px] rounded-[20px] sm: h-[200px] w-[350px] lg: h-[250px] w-[450px]" alt="News Image" />
             </div>
             <div className="p-[50px]">
-              <p className="text-4xl text-black font-bold mb-[20px]">{segment.title}</p>
+              <p className="text-black font-bold mb-[20px] sm:text-3xl md:text-3xl lg: text-xl">{segment.title}</p>
               <p className="text-sm text-gray-600">{segment.content}</p>
             </div>
           </div>
