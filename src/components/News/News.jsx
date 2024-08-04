@@ -126,15 +126,15 @@ const News = () => {
 
 const data = [
   {
-    img: `/src/assets/nnews1.jpg`,
+    img: `/nnews1.jpg`,
     review: ` BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024`,
   },
   {
-    img: `/src/assets/nnews2.jpg`,
+    img: `/nnews2.jpg`,
     review: ` ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETTION`,
   },
   {
-    img: `/src/assets/nnews3.jpg`,
+    img: `/nnews3.jpg`,
     review: ` MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`,
   },
   
