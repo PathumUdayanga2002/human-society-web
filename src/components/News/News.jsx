@@ -81,10 +81,10 @@ const News = () => {
     <div id='news' className=" bg-white py-10 font-poppins mb-5 mt-[100px]">{/*link update */}
       <div className="flex flex-col items-center justify-center mb-5">
         <div>
-          <h1 className=" font-inter text-3xl font-bold md:text-4xl">NEWS</h1>
+          <h1 className=" font-inter text-3xl font-bold md:text-4xl">RECENT UPDATE</h1>
         </div>
-        <p className=" text-xl opacity-80 md:text-2xl font-semibold font-inter mt-5">
-          Lorem ipsum dolor sit amet
+        <p className=" text-xl opacity-80 md:text-2xl font-semibold font-inter mt-5 text-center md:text-center">
+          DISCOVER THE LATEST STORIES FROM THE HUMANE SOCIETY
         </p>
       </div>
       <div className=" font-poppins w-3/5 m-auto ">
@@ -126,25 +126,18 @@ const News = () => {
 
 const data = [
   {
-    img: `/src/assets/dog1.jpg`,
-    review: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,`,
+    img: `/src/assets/nnews1.jpg`,
+    review: ` BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024`,
   },
   {
-    img: `/src/assets/dog1.jpg`,
-    review: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,`,
+    img: `/src/assets/nnews2.jpg`,
+    review: ` ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETTION`,
   },
   {
-    img: `/src/assets/dog1.jpg`,
-    review: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,`,
+    img: `/src/assets/nnews3.jpg`,
+    review: ` MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`,
   },
-  {
-    img: `/src/assets/dog1.jpg`,
-    review: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,`,
-  },
-  {
-    img: `/src/assets/dog1.jpg`,
-    review: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,`,
-  },
+  
 ];
 
 export default News;
