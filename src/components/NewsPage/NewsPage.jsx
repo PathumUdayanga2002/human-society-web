@@ -42,7 +42,7 @@ const NewsPage = () => {
           </div>
         ))}
 
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-4 mb-8">
           {Array.from({ length: Math.ceil(newsSegments.length / segmentsPerPage) }, (_, index) => (
             <button
               key={index}
