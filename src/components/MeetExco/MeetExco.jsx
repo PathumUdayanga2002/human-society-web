@@ -7,7 +7,7 @@ const MeetExco = () => {
   return (
     <div>
       <div class="relative h-[850px] min-w-full bg-[url('/src/assets/thor.jpg')] bg-cover bg-center min-h-{300px} sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] flex">
-          <img class="absolute h-[850px] w-full sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]" src='/src/assets/textback.png'/>
+          <img class="absolute h-[850px] w-full sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]" src='textback.png'/>
           <div className='relative text-left text-white text-opacity-90 p-4 md:p-8 max-w-[600px]'>
             <p className='mt-5 text-center font-bold text-5xl md:text-6xl sm:text-6xl mt-[100px] lg:text-6xl xl:text-6xl leading-relaxed'>MEET THE EXCO</p>
             <p className='mt-5 justify-center text-xl md:text-2xl sm:text-2xl lg:text-2xl xl:text-2xl leading-relaxed'>
