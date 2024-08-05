@@ -33,7 +33,7 @@ const NewsPage = () => {
         {currentSegments.map(segment => (
           <div key={segment.id} className="flex flex-col lg:flex-row items-center border-black-100 border-2 bg-white rounded-2xl mb-10 transition duration-300 ease-in-out transform hover:scale-105">
             <div className="flex-shrink-0 p-4 w-full lg:w-1/2">
-              <img src={`/src/assets/news/news${segment.id}.jpg`} className="rounded-2xl w-full h-auto object-cover" alt="News" />
+              <img src={`news${segment.id}.jpg`} className="rounded-2xl w-full h-auto object-cover" alt="News" />
             </div>
             <div className="p-6 w-full lg:w-1/2">
               <p className="text-black font-bold mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl">{segment.title}</p>
