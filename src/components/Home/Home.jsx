@@ -23,9 +23,9 @@ const Home = () => {
       <img className='w-full h-full object-cover' src={images[currentImage]} alt={`Slide ${currentImage + 1}`} />
       <div className='absolute inset-0 flex items-center justify-center bg-black bg-opacity-30'>
         <div className='text-left text-white text-opacity-90 p-4 md:p-8'>
-          <p className='text-xl md:text-3xl'>DISCOVER</p>
-          <p className='2xl:text-12xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-7xl text-4xl font-bold tracking-widest'>LIFE FOR A PAW MAGAZINE</p>
-          <p className='mt-4 text-sm md:text-xl leading-relaxed'>
+          <p className='text-xl md:text-3xl font-inter'>DISCOVER</p>
+          <p className='2xl:text-12xl xl:text-9xl lg:text-9xl md:text-8xl sm:text-7xl text-4xl font-bold tracking-widest font-inter'>LIFE FOR A PAW MAGAZINE</p>
+          <p className='mt-4 text-sm md:text-xl leading-relaxed font-inter' >
             HUMANE SOCIETY'S BIGGEST PROJECT REVOLVING AROUND ANIMAL HEALTHCARE AND WELFARE... 
             <br />AND WHAT ELSE. I NEED SOMETHING TO FILL UP THIS BLANK SPACE.
           </p>

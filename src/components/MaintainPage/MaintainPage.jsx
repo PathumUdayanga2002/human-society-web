@@ -8,7 +8,7 @@ const MeetExco = () => {
         <div>
             <Navbar/>
             <div>
-            <h1 className='py-[150px] text-center text-6xl'>This page is under maintain</h1>
+            <h1 className='py-[150px] text-center text-xl'>This page is under maintain</h1>
             </div>
             
             <div className=''><Footer/></div>

@@ -55,12 +55,12 @@ const DiscoverMore = () => {
   return (
     <div className='bg-blue-500 text-white h-full py-10 flex flex-col justify-center items-center'>
       <div className='text-center mb-8'>
-        <p className='text-4xl md:text-6xl font-bold'>DISCOVER MORE</p>
-        <p className='mt-2'>GET THE LATEST NEWS AND MOST URGENT CALLS TO ACTION BY SIGNING UP TO RECEIVE EMAIL ALERTS.</p>
+        <p className='text-4xl md:text-6xl font-bold font-alata'>DISCOVER MORE</p>
+        <p className='mt-2 font-alata'>GET THE LATEST NEWS AND MOST URGENT CALLS TO ACTION BY SIGNING UP TO RECEIVE EMAIL ALERTS.</p>
       </div>
       <form className='w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 px-4' onSubmit={handleSubmit}>
         <div className='flex flex-col'>
-          <label>FIRST NAME</label>
+          <label className='font-alata'>FIRST NAME</label>
           <input
             type="text"
             name="fname"
@@ -71,7 +71,7 @@ const DiscoverMore = () => {
           />
         </div>
         <div className='flex flex-col'>
-          <label>LAST NAME</label>
+          <label className='font-alata'>LAST NAME</label>
           <input
             type="text"
             name="lname"
@@ -82,7 +82,7 @@ const DiscoverMore = () => {
           />
         </div>
         <div className='flex flex-col'>
-          <label>EMAIL ADDRESS</label>
+          <label className='font-alata'>EMAIL ADDRESS</label>
           <input
             type="email"
             name="email"
@@ -93,7 +93,7 @@ const DiscoverMore = () => {
           />
         </div>
         <div className='flex flex-col'>
-          <label>COUNTRY</label>
+          <label className='font-alata'>COUNTRY</label>
           <input
             type="text"
             name="country"
@@ -110,16 +110,16 @@ const DiscoverMore = () => {
             onChange={handleChange}
             className='text-black mr-2'
           />
-          <label className='text-xs'>
+          <label className='text-xs font-alata'>
             CHECK THIS BOX IF YOU WOULD LIKE TO RECEIVE, OR CONTINUE TO RECEIVE, PERIODIC UPDATES AND ACTION ALERTS FROM HUMANE SOCIETY UNIVERSITY OF KELANIYA VIA EMAIL. YOU MAY UNSUBSCRIBE AT ANY TIME.
           </label>
         </div>
         <div className='col-span-1 md:col-span-2 flex justify-center'>
           <button
             type="submit"
-            className='bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded'
+            className='bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded font-alata'
           >
-            Send
+            SIGN UP
           </button>
         </div>
       </form>

@@ -28,7 +28,7 @@ const NewsPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="font-bold text-center pt-24 pb-12 text-2xl md:text-3xl lg:text-4xl">Discover the Latest Stories from the Humane Society</h1>
+      <h1 className="font-bold text-center pt-24 pb-12 text-2xl md:text-3xl lg:text-4xl font-inter">Discover the Latest Stories from the Humane Society</h1>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         {currentSegments.map(segment => (
           <div key={segment.id} className="flex flex-col lg:flex-row items-center border-black-100 border-2 bg-white rounded-2xl mb-10 transition duration-300 ease-in-out transform hover:scale-105">

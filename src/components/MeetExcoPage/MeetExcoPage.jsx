@@ -22,7 +22,7 @@ const MeetExcoPage = () => {
       </Link>
 
       <div className='text-center mb-8 md:mb-12'>
-        <p className='text-3xl md:text-5xl font-bold'>Meet the Team behind the Humane Society 24/25</p>
+        <p className='text-3xl md:text-5xl font-bold font-inter'>Meet the Team behind the Humane Society 24/25</p>
       </div>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-4 items-center justify-items-center text-center'>
@@ -37,7 +37,7 @@ const MeetExcoPage = () => {
       </div>
 
       <div className='text-left my-8 md:my-12'>
-        <p className='text-3xl md:text-5xl font-bold ml-4'>MARKETING SUBCOMMITTEE</p>
+        <p className='text-3xl md:text-5xl font-bold ml-4 font-inter'>MARKETING SUBCOMMITTEE</p>
       </div>
       
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-4 items-center justify-items-center text-center'>
@@ -52,7 +52,7 @@ const MeetExcoPage = () => {
       </div>
 
       <div className='text-left my-8 md:my-12'>
-        <p className='text-3xl md:text-5xl font-bold ml-4'>HR SUBCOMMITTEE</p>
+        <p className='text-3xl md:text-5xl font-bold ml-4 font-inter'>HR SUBCOMMITTEE</p>
       </div>
       
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-4 items-center justify-items-center text-center'>
@@ -67,7 +67,7 @@ const MeetExcoPage = () => {
       </div>
 
       <div className='text-left my-8 md:my-12'>
-        <p className='text-3xl md:text-5xl font-bold ml-4'>FINANCE SUBCOMMITTEE</p>
+        <p className='text-3xl md:text-5xl font-bold ml-4 font-inter'>FINANCE SUBCOMMITTEE</p>
       </div>
       
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-8 gap-x-4 items-center justify-items-center text-center'>
