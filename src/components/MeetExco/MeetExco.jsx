@@ -7,10 +7,11 @@ const MeetExco = () => {
   return (
     <div>
       <div class="relative h-[850px] min-w-full bg-[url('/src/assets/thor.jpg')] bg-cover bg-center min-h-{300px} sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px] flex">
-          <img class="absolute h-[850px] w-full sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[800px]" src='textback.png'/>
+          <img class="absolute h-[850px] hidden sm:hidden min-h-[300px] md:hidden min-h-[600px] lg:block min-h-[700px] xl:min-h-[800px]" src='textback.png'/>
           <div className='relative text-left text-white text-opacity-90 p-4 md:p-8 max-w-[600px]'>
-            <p className='mt-5 text-center font-bold text-5xl md:text-6xl sm:text-6xl mt-[100px] lg:text-6xl xl:text-6xl leading-relaxed font-inter'>MEET THE EXCO</p>
-            <p className='mt-5 justify-center text-xl md:text-2xl sm:text-2xl lg:text-2xl xl:text-2xl leading-relaxed font-alata'>
+            <br/><br />
+            <p className='mt-5 ml-3 text-center font-bold text-5xl md:text-6xl sm:text-6xl mt-[100px] lg:text-6xl xl:text-6xl leading-relaxed font-inter'>MEET THE EXCO</p>
+            <p className='mt-5 ml-3 justify-center text-xl md:text-2xl sm:text-2xl lg:text-2xl xl:text-2xl leading-relaxed font-alata'>
             Welcome to the Executive Committee page! Our team of dedicated leaders is committed to guiding our organization towards success with vision, integrity, and innovation. Get to know the faces behind our strategic decisions and daily operations.
             </p>
             <Link to='/meetexcopage'>{/*link update */}
