@@ -89,22 +89,22 @@ const MeetExcoPage = () => {
 };
 
 const teamMembers = [
-  { position: 'PRESIDENT', name: 'THULANI MAGEDAR', image: 'women.jpg' },
+  { position: 'PRESIDENT', name: 'THULANI MAGEDAR', image: 'Thulanimagedara.jpg' },
   { position: 'SECRETARY', name: 'INDUSHA THENNAKOON', image: 'women.jpg' },
   { position: 'JUNIOR TREASURER', name: 'MADHUSHIKA DISSANAYAKE', image: 'women.jpg' },
   { position: '1ST VICE PRESIDENT', name: 'HARSHANA RATHNAYAKA', image: 'man.jpg' },
-  { position: 'VICE PRESIDENT', name: 'CHAMINDU JAYAHANSA', image: 'man.jpg' },
+  { position: 'VICE PRESIDENT', name: 'CHAMINDU JAYAHANSA', image: 'Chamindu.jpg' },
   { position: 'VICE PRESIDENT', name: 'SRIMAL RANDIKA', image: 'man.jpg' },
   { position: 'ASSISTANT SECRETARY', name: 'PARAMUDITHA MANATHUNGA', image: 'women.jpg' },
   { position: 'A.JUNIOR TREASURER', name: 'HIMASHI YASHODHARA', image: 'women.jpg' },
-  { position: 'SENIOR TREASURER', name: 'THURUNU MARASINGHE', image: 'man.jpg' },
+  { position: 'SENIOR EDITOR', name: 'THURUNU MARASINGHE', image: 'ThurunuYM.webp' },
   { position: 'SENIOR EDITOR', name: 'RASAL DASANAYAKE', image: 'man.jpg' },
-  { position: 'JUNIOR EDITOR', name: 'THISUN GUNATHILAKA', image: 'man.jpg' },
+  { position: 'JUNIOR EDITOR', name: 'THISUN GUNATHILAKA', image: 'Thisun.jpg' },
   { position: 'JUNIOR EDITOR', name: 'CHAMOD JAYAWEERA', image: 'man.jpg' },
-  { position: 'COORDINATOR', name: 'AMIDU DESHAN', image: 'man.jpg' },
-  { position: 'COORDINATOR', name: 'HARSHINI LIYANAARACHCHI', image: 'women.jpg' },
-  { position: 'COORDINATOR', name: 'ANUSHA MADHUWANTHI', image: 'women.jpg' },
-  { position: 'COORDINATOR', name: 'CHIRATH UMAYANGA', image: 'man.jpg' },
+  { position: 'COORDINATOR', name: 'AMIDU DESHAN', image: 'AmiduDeshan.jpg' },
+  { position: 'COORDINATOR', name: 'HARSHINI LIYANAARACHCHI', image: 'HashiniTharushika.jpg' },
+  { position: 'COORDINATOR', name: 'ANUSHA MADHUWANTHI', image: 'AnushaMadhuwanthi.jpg' },
+  { position: 'COORDINATOR', name: 'CHIRATH UMAYANGA', image: 'Chirath.jpg' },
 ];
 
 const marketingSubcommittee = [
