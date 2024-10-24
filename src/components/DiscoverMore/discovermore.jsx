@@ -53,7 +53,7 @@ const DiscoverMore = () => {
   };
 
   return (
-    <div className='bg-blue-500 text-white h-full py-10 flex flex-col justify-center items-center'>
+    <div className='bg-blue-500 text-white h-full py-20 flex flex-col justify-center items-center'>
       <div className='text-center mb-8'>
         <p className='text-4xl md:text-6xl font-bold font-alata'>DISCOVER MORE</p>
         <p className='mt-2 font-alata'>GET THE LATEST NEWS AND MOST URGENT CALLS TO ACTION BY SIGNING UP TO RECEIVE EMAIL ALERTS.</p>

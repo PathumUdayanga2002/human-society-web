@@ -30,6 +30,7 @@ const News = () => {
       </div>
     );
   };
+
   var settings = {
     dots: true,
     infinite: true,
@@ -47,12 +48,20 @@ const News = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: false,
+          infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768, // tablets
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 600, // large phones
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -60,44 +69,51 @@ const News = () => {
         },
       },
       {
-        breakpoint: 550,
+        breakpoint: 480, // small phones
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
         },
       },
     ],
   };
+
   return (
-    <div id='news' className=" bg-white py-10 font-poppins mb-5 mt-[100px]">{/*link update */}
+    <div id="news" className="bg-white py-10 font-poppins mb-5 mt-[100px]">
       <div className="flex flex-col items-center justify-center mb-5">
         <div>
-          <h1 className=" font-inter text-3xl font-bold md:text-4xl">RECENT UPDATE</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-inter">
+            RECENT UPDATE
+          </h1>
         </div>
-        <p className=" text-xl opacity-80 md:text-2xl font-semibold font-inter mt-5 text-center md:text-center">
+        <p className="text-lg sm:text-xl md:text-2xl opacity-80 font-semibold font-inter mt-5 text-center">
           DISCOVER THE LATEST STORIES FROM THE HUMANE SOCIETY
         </p>
       </div>
-      <div className=" font-poppins w-3/5 m-auto ">
-        <div className=" slider-container ">
+
+      <div className="w-full px-12 sm:px-12 md:px-10 lg:px-20 xl:px-24">
+        <div className="slider-container">
           <Slider {...settings}>
             {data.map((d) => (
-              <div className=" flex flex-col px-5 py-3 justify-center items-center ">
-                <div className=" bg-black py-5 rounded-lg ">
+              <div
+                key={d.caption}
+                className="flex flex-col px-4 py-3 justify-center items-center"
+              >
+                <div className="bg-white p-3 rounded-2xl border border-gray-300 shadow-md hover:bg-gray-200">
                   <div>
-                    <img src={d.img} alt="image" />
+                    <img
+                      src={d.img}
+                      alt={d.caption}
+                      className="w-full h-40 object-cover rounded-t-2xl"
+                    />
                   </div>
                   <div>
-                    <p className=" px-3 text-center text-sm mt-2 text-white">
+                    <p className="px-3 py-2 font-bold text-center text-sm sm:text-lg mt-2 text-black">
+                      {d.caption}
+                    </p>
+                  </div>
+                  <div>
+                    <p className="px-4 text-center text-sm text-gray-600">
                       {d.review}
                     </p>
                   </div>
@@ -106,18 +122,12 @@ const News = () => {
             ))}
           </Slider>
         </div>
-        <div className="flex items-end justify-end mt-10 gap-4 flex-row">
-          <div className="flex justify-center items-center flex-row gap-4">
-            <Link to="/newspage"><div className=" font-inter text-sm md:text-xl">CLICK FOR MORE</div>{/* link update.linked to the News page */}
-            <a href="/moreNews">
-              <button className=" cursor-pointer border-none text-2xl  ">
-                <div className=" md:text-3xl mt-2 ">
-                  <IoArrowForwardCircleOutline />
-                </div>
-              </button>
-            </a>
-            </Link>
-          </div>
+
+        <div className="flex items-end justify-end mt-10">
+          <Link to="/newspage" className="flex items-center gap-2">
+            <span className="font-inter text-sm md:text-xl">CLICK FOR MORE</span>
+            <IoArrowForwardCircleOutline className="text-2xl md:text-3xl" />
+          </Link>
         </div>
       </div>
     </div>
@@ -127,17 +137,19 @@ const News = () => {
 const data = [
   {
     img: `/nnews1.jpg`,
-    review: ` BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024`,
+    caption: "BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024",
+    review: `MAXIMUM CONTENT LINES IS 4.`,
   },
   {
     img: `/nnews2.jpg`,
-    review: ` ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETTION`,
+    caption: "ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETITION",
+    review: `MAXIMUM CONTENT LINES IS 4.`,
   },
   {
     img: `/nnews3.jpg`,
-    review: ` MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`,
+    caption: `MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`,
+    review: `MAXIMUM CONTENT LINES IS 4.`,
   },
-  
 ];
 
 export default News;
