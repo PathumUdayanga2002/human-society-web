@@ -99,11 +99,28 @@ const AboutUs = () => {
             </div>
             CURRENT PROJECT TIMELINE
           </h1>
-          <img
+          <div className="relative w-80 md:w-[800px] h-[400px] rounded-lg overflow-hidden shadow-lg group">
+            {/* Image */}
+            <img
+              src={timeline2}
+              alt="timeline image"
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            {/* Fade Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-90 transition-all duration-500"></div>
+
+            {/* Centered Text */}
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <h1 className="text-white text-5xl font-bold">EXPLORE MORE</h1>
+            </div>
+          </div>
+
+          {/* <img
             className=" w-80 flex items-center justify-center md:flex md:items-center md:justify-center md:w-[800px] mt-5 "
             src={timeline2}
             alt="timeline image"
-          />
+          /> */}
           <p></p>
         </div>
         {/* committee */}
@@ -120,10 +137,35 @@ const AboutUs = () => {
               {" "}
               PRESENT COMMITTEE
             </h1>
-            <div
-              className="  grid grid-cols-3   border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60 
-        "
-            >
+            <div className="relative group">
+              
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
+              
+              {/* Centered Text */}
+              <div
+                className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <h1 className="text-white text-4xl font-bold">EXECUTIVE COMMITTEE 24/25</h1>
+              </div>
+
+              <div className="grid grid-cols-3 border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60 rounded-lg overflow-hidden shadow-lg">
+                {committeeData.map((d) => (
+                  <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
+                    <img
+                      className=" border-solid border-4 border-pink-700 rounded-full w-16 h-16 "
+                      src={d.image}
+                      alt="avatar"
+                    />
+                    <p className=" font-bold text-[12px] md:text-[16px]">
+                      {d.position}
+                    </p>
+                    <p className=" md:text-sm text-[10px]">{d.name}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* <div className="grid grid-cols-3 border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60 rounded-lg overflow-hidden shadow-lg group">
               {committeeData.map((d) => (
                 <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
                   <img
@@ -138,7 +180,7 @@ const AboutUs = () => {
                 </div>
               ))}
               
-            </div>
+            </div> */}
           </div>
           {/* previous */}
           <div className=" md:mt-16 ">
@@ -146,23 +188,31 @@ const AboutUs = () => {
               {" "}
               PREVIOUS COMMITTEE
             </h1>
-            <div
-              className="  grid grid-cols-3  border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60
-        "
-            >
-              {committeeData.map((d) => (
-                <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
-                  <img
-                    className=" border-solid border-4 border-pink-600 rounded-full w-16 h-16 "
-                    src={d.image}
-                    alt="avatar"
-                  />
-                  <p className=" font-bold text-[12px] md:text-[16px]">
-                    {d.position}
-                  </p>
-                  <p className=" md:text-sm text-[10px]">{d.name}</p>
-                </div>
-              ))}
+            <div className="relative group">
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
+              
+              {/* Centered Text */}
+              <div
+                className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <h1 className="text-white text-4xl font-bold">EXECUTIVE COMMITTEE 23/24</h1>
+              </div>
+
+              <div className="grid grid-cols-3  border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60">
+                {committeeData.map((d) => (
+                  <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
+                    <img
+                      className=" border-solid border-4 border-pink-600 rounded-full w-16 h-16 "
+                      src={d.image}
+                      alt="avatar"
+                    />
+                    <p className=" font-bold text-[12px] md:text-[16px]">
+                      {d.position}
+                    </p>
+                    <p className=" md:text-sm text-[10px]">{d.name}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
