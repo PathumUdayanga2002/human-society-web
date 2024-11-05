@@ -7,6 +7,8 @@ const MeetExco = () => {
   return (
     <div>
       <div class="relative h-[600px] min-w-full bg-[url('/src/assets/thor.jpg')] bg-cover bg-center min-h-{300px} sm:min-h-[300px] md:min-h-[600px] lg:min-h-[700px] xl:min-h-[700px] flex">
+          {/* Black overlay for small screens */}
+          <div className="absolute inset-0 bg-black opacity-80 sm:bg-black opacity-80 md:bg-black opacity-80 lg:hidden bg-black opacity-80 xl:hidden bg-black opacity-80"></div>
           <img class="absolute h-[600px] hidden sm:hidden min-h-[300px] md:hidden min-h-[600px] lg:block min-h-[700px] xl:min-h-[700px]" src='textback.png'/>
           <div className='relative text-left text-white text-opacity-90 p-4 md:p-8 max-w-[600px]'>
             <br/><br />
@@ -27,4 +29,4 @@ const MeetExco = () => {
   )
 }
 
-export default MeetExco
+export default MeetExco;
