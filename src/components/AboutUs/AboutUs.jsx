@@ -99,7 +99,7 @@ const AboutUs = () => {
             </div>
             CURRENT PROJECT TIMELINE
           </h1>
-          <div className="relative w-80 md:w-[800px] h-[400px] rounded-lg overflow-hidden shadow-lg group">
+          <div className="relative w-80 md:w-[900px] lg:w-[900px] xl:w-[800px] h-[500px] rounded-lg overflow-hidden shadow-lg group">
             {/* Image */}
             <img
               src={timeline2}
@@ -124,7 +124,7 @@ const AboutUs = () => {
           <p></p>
         </div>
         {/* committee */}
-        <div className=" md:flex md:flex-row md:justify-between  md:items-center">
+        <div className=" lg:flex lg:flex-row lg:justify-between  lg:items-center">
           <div>
             <h1 className=" text-xl text-blue-500 font-bold flex justify-center text-center py-4 md:justify-start md:text-start md:text-2xl md:mb-5 font-inter">
               <div className="mt-[5px] -ml-[1px]">
@@ -137,7 +137,7 @@ const AboutUs = () => {
               {" "}
               PRESENT COMMITTEE
             </h1>
-            <div className="relative group">
+            <div className="relative group h-[650px]">
               
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
@@ -183,12 +183,12 @@ const AboutUs = () => {
             </div> */}
           </div>
           {/* previous */}
-          <div className=" md:mt-16 ">
+          <div className=" md:mt-16">
             <h1 className=" font-inter flex  justify-center text-center py-2 mt-5">
               {" "}
               PREVIOUS COMMITTEE
             </h1>
-            <div className="relative group">
+            <div className="relative group h-[650px]">
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
               

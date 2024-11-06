@@ -99,7 +99,7 @@ const News = () => {
                 key={d.caption}
                 className="flex flex-col px-4 py-3 justify-center items-center"
               >
-                <div className="bg-white p-3 rounded-2xl border border-gray-300 shadow-md hover:bg-gray-200">
+                <div className="bg-white p-3 rounded-2xl border border-gray-300 shadow-md hover:bg-gray-200 h-[350px]">
                   <div>
                     <img
                       src={d.img}
