@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AboutUsHome = () => {
     return (
         <div>
-            <div className="min-h-screen bg-black">
+            <div className=" bg-black">
                 <h1 className="text-white text-5xl text-center font-bold py-12 font-inter">OUR MISSION AND VISION</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 text-white gap-4 px-4">
                     <div className="flex justify-center">

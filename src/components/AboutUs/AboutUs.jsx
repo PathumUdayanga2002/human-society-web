@@ -99,7 +99,7 @@ const AboutUs = () => {
             </div>
             CURRENT PROJECT TIMELINE
           </h1>
-          <div className="relative w-80 md:w-[900px] lg:w-[900px] xl:w-[800px] h-[500px] rounded-lg overflow-hidden shadow-lg group">
+          <div className="relative w-[280px] sm:w-[550px] md:w-[690px] lg:w-[900px] xl:w-[1200px] h-[500px] rounded-lg overflow-hidden shadow-lg group">
             {/* Image */}
             <img
               src={timeline2}
@@ -137,7 +137,7 @@ const AboutUs = () => {
               {" "}
               PRESENT COMMITTEE
             </h1>
-            <div className="relative group h-[650px]">
+            <div className="relative group h-[700px] sm:h-[650px]">
               
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
@@ -145,7 +145,7 @@ const AboutUs = () => {
               {/* Centered Text */}
               <div
                 className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <h1 className="text-white text-4xl font-bold">EXECUTIVE COMMITTEE 24/25</h1>
+                <h1 className="text-white text-2xl sm:text-4xl font-bold">EXECUTIVE COMMITTEE 24/25</h1>
               </div>
 
               <div className="grid grid-cols-3 border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60 rounded-lg overflow-hidden shadow-lg">
@@ -188,14 +188,14 @@ const AboutUs = () => {
               {" "}
               PREVIOUS COMMITTEE
             </h1>
-            <div className="relative group h-[650px]">
+            <div className="relative group h-[700px] sm:h-[650px]">
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
               
               {/* Centered Text */}
               <div
                 className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <h1 className="text-white text-4xl font-bold">EXECUTIVE COMMITTEE 23/24</h1>
+                <h1 className="text-white text-2xl sm:text-4xl font-bold">EXECUTIVE COMMITTEE 23/24</h1>
               </div>
 
               <div className="grid grid-cols-3  border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60">
