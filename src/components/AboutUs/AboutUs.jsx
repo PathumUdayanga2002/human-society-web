@@ -124,7 +124,7 @@ const AboutUs = () => {
           <p></p>
         </div>
         {/* committee */}
-        <div className=" lg:flex lg:flex-row lg:justify-between  lg:items-center">
+        <div className=" xl:flex xl:flex-row xl:justify-between  xl:items-center">
           <div>
             <h1 className=" text-xl text-blue-500 font-bold flex justify-center text-center py-4 md:justify-start md:text-start md:text-2xl md:mb-5 font-inter">
               <div className="mt-[5px] -ml-[1px]">
