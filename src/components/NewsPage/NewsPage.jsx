@@ -3,7 +3,10 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 const NewsPage = () => {
+
+ 
   const [currentPage, setCurrentPage] = useState(1);
+ 
 
   const newsSegments = [
     { id: 1, title: 'News Segment 1', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
@@ -24,7 +27,8 @@ const NewsPage = () => {
   const currentSegments = newsSegments.slice(indexOfFirstSegment, indexOfLastSegment);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
-
+  
+ 
   return (
     <div>
       <Navbar />

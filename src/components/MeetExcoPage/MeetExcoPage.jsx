@@ -90,7 +90,7 @@ const MeetExcoPage = () => {
 
 const teamMembers = [
   { position: 'PRESIDENT', name: 'THULANI MAGEDAR', image: 'Thulanimagedara.jpg' },
-  { position: 'SECRETARY', name: 'INDUSHA THENNAKOON', image: 'women.jpg' },
+  { position: 'SECRETARY', name: 'INDUSHA THENNAKOON', image: 'INDUSHA.png' },
   { position: 'JUNIOR TREASURER', name: 'MADHUSHIKA DISSANAYAKE', image: 'women.jpg' },
   { position: '1ST VICE PRESIDENT', name: 'HARSHANA RATHNAYAKA', image: 'man.jpg' },
   { position: 'VICE PRESIDENT', name: 'CHAMINDU JAYAHANSA', image: 'Chamindu.jpg' },
@@ -109,7 +109,7 @@ const teamMembers = [
 
 const marketingSubcommittee = [
   { position: 'DIRECTOR', name: 'DILEKA SITHSIRINI', image: 'women.jpg' },
-  { position: 'MANAGER ', profession:'(DESIGNING)', name: 'DHANITHA KOLONNAGE', image: 'man.jpg' },
+  { position: 'MANAGER ', profession:'(DESIGNING)', name: 'DHANITHA KOLONNAGE', image: 'DhanithaKolonnage.jpg' },
   { position: 'MANAGER ', profession:'(CONTENT WRITING)', name: 'MADUSHI HASANTHIKA', image: 'women.jpg' },
   { position: 'MANAGER ', profession:'(PHOTOGRAPHY)', name: 'METHARA WANIGASINGHE', image: 'women.jpg' },
   { position: 'MANAGER ', profession:'(PUBLIC RELATIONS)', name: 'NADEESHA KULASEKARA', image: 'women.jpg' },
