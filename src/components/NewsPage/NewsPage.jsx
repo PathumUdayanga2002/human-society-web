@@ -9,19 +9,12 @@ const NewsPage = () => {
  
 
   const newsSegments = [
-    { id: 1, title: 'News Segment 1', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 2, title: 'News Segment 2', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 3, title: 'News Segment 3', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 4, title: 'News Segment 4', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 5, title: 'News Segment 5', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 6, title: 'News Segment 6', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 7, title: 'News Segment 7', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 8, title: 'News Segment 8', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 9, title: 'News Segment 9', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-    { id: 10, title: 'News Segment 10', content: 'Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.' },
-  ];
+    { id: 1, title: "BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024", content: `Humane අවුරුදු '24 organized by the Humane Society of University of Kelaniya to support a children's home and offer care to those who need it most.`, link: 'https://www.facebook.com/humaneUok/posts/pfbid02PXsThxjcg62BHhXo64WTAqcbjcQZ5MKzFdWmWvuc4PZFN5bioUViLeeera6AExMhl' },
+    { id: 2, title: "ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETITION", content: `A huge congratulations to Nadeesha Kulasekara, the Winner - Essay/ Article/ Short Stories (English)  `, link: 'https://www.facebook.com/humaneUok/posts/pfbid02RSHKirmmFm35VXgYsPKf7joptNEGRvcbCxhVzNpZKHZgJf9X3fz7qUiq7HQpgzafl' },
+    { id: 3, title: `MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`, content: `The first phase of Project Marine Harmony, organized by the Humane Society of the University of Kelaniya, has been Successfully Completed! `, link: 'https://www.facebook.com/humaneUok/posts/pfbid032Lvn6tAUTZfBzkuXouheA61xXCQkcNx1e1LppbqU2tn4DPNGhX7rVAtaq4wr2xoRl' },
+     ];
 
-  const segmentsPerPage = 5;
+  const segmentsPerPage = 3;
   const indexOfLastSegment = currentPage * segmentsPerPage;
   const indexOfFirstSegment = indexOfLastSegment - segmentsPerPage;
   const currentSegments = newsSegments.slice(indexOfFirstSegment, indexOfLastSegment);
@@ -37,7 +30,9 @@ const NewsPage = () => {
         {currentSegments.map(segment => (
           <div key={segment.id} className="flex flex-col lg:flex-row items-center border-black-100 border-2 bg-white rounded-2xl mb-10 transition duration-300 ease-in-out transform hover:scale-105">
             <div className="flex-shrink-0 p-4 w-full lg:w-1/2">
-              <img src={`news${segment.id}.jpg`} className="rounded-2xl w-full h-auto object-cover" alt="News" />
+            <a href={segment.link} target="_blank" rel="noopener noreferrer" className="flex-shrink-0 p-4 w-full lg:w-1/2">
+              <img src={`nnews${segment.id}.jpg`} className="rounded-2xl w-full h-auto object-cover" alt="News" />
+            </a>
             </div>
             <div className="p-6 w-full lg:w-1/2">
               <p className="text-black font-bold mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl">{segment.title}</p>

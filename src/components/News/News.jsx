@@ -99,25 +99,31 @@ const News = () => {
                 key={d.caption}
                 className="flex flex-col px-4 py-3 justify-center items-center"
               >
-                <div className="bg-white p-3 rounded-2xl border border-gray-300 shadow-md hover:bg-gray-200 h-[350px]">
+                <a href={d.fbLink} target="_blank" rel="noopener noreferrer">
+                <div className="bg-white p-3 rounded-2xl border border-gray-300 shadow-md hover:bg-gray-200 sm:h-[440px] md:h-[450px] lg:h-[400px] xl:h-[350px]">
+                  
                   <div>
+                
                     <img
                       src={d.img}
                       alt={d.caption}
                       className="w-full h-40 object-cover rounded-t-2xl"
                     />
+                   
                   </div>
+                 
                   <div>
                     <p className="px-3 py-2 font-bold text-center text-sm sm:text-lg mt-2 text-black">
                       {d.caption}
                     </p>
                   </div>
                   <div>
-                    <p className="px-4 text-center text-sm text-gray-600">
+                    <p className="px-4  text-center text-xs xl:text-sm text-gray-600">
                       {d.review}
                     </p>
                   </div>
                 </div>
+                </a>
               </div>
             ))}
           </Slider>
@@ -138,17 +144,21 @@ const data = [
   {
     img: `/nnews1.jpg`,
     caption: "BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024",
-    review: `MAXIMUM CONTENT LINES IS 4.`,
+    review: `Humane අවුරුදු '24 organized by the Humane Society of University of Kelaniya to support a children's home and offer care to those who need it most.`,
+    fbLink: "https://www.facebook.com/humaneUok/posts/pfbid02PXsThxjcg62BHhXo64WTAqcbjcQZ5MKzFdWmWvuc4PZFN5bioUViLeeera6AExMhl",
+   
   },
   {
     img: `/nnews2.jpg`,
     caption: "ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETITION",
-    review: `MAXIMUM CONTENT LINES IS 4.`,
+    review: `A huge congratulations to Nadeesha Kulasekara, the Winner - Essay/ Article/ Short Stories (English)  `,
+    fbLink: "https://www.facebook.com/humaneUok/posts/pfbid02RSHKirmmFm35VXgYsPKf7joptNEGRvcbCxhVzNpZKHZgJf9X3fz7qUiq7HQpgzafl",
   },
   {
     img: `/nnews3.jpg`,
     caption: `MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`,
-    review: `MAXIMUM CONTENT LINES IS 4.`,
+    review: `The first phase of Project Marine Harmony, organized by the Humane Society of the University of Kelaniya, has been Successfully Completed! `,
+    fbLink: "https://www.facebook.com/humaneUok/posts/pfbid032Lvn6tAUTZfBzkuXouheA61xXCQkcNx1e1LppbqU2tn4DPNGhX7rVAtaq4wr2xoRl",
   },
 ];
 
