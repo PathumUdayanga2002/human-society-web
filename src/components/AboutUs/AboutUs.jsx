@@ -232,76 +232,76 @@ const committeeData = [
     name: "Kavindu Bandara",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Vice President ",
     name: "Isiwara Perera",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Vice President ",
     name: "Thulani Magedar",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Secretary ",
     name: "Dileka Sithsirini",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Vice Secretary ",
     name: "Danajani Silva",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Junior Treasurer ",
     name: "Himashi Yashodara",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Co-Editor ",
     name: "Harshana Rathnayaka",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Co-Editor ",
     name: "Amidu Deshan",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Coordinators ",
     name: "Dileka Sithsirini",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Coordinators ",
     name: "Dileka Sithsirini",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Coordinators ",
     name: "Dileka Sithsirini",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "Coordinators ",
     name: "Dileka Sithsirini",
   },
 ];
 const coordinators = [
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     name: "Himashi Yashodara",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     name: "Harshana Rathnayaka",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     name: "Amidu Deshan",
   },
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     name: "Amidu Deshan",
   },
 ];
