@@ -4,6 +4,7 @@ import professor from "../../assets/professor.jpg";
 import timeline2 from "../../assets/timeline2.jpg";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+
 const AboutUs = () => {
   return (
     <div className=" pt-12">
@@ -226,7 +227,7 @@ export default AboutUs;
 
 const committeeData = [
   {
-    image: "src/assets/avatar.png",
+    image: "avatar.png",
     position: "President ",
     name: "Kavindu Bandara",
   },
