@@ -9,6 +9,8 @@ import "slick-carousel/slick/slick.css";
 import { Link } from "react-router-dom";
 import { data } from "../../data/NewsOfHomePage";
 
+//rename repository
+
 const News = () => {
   const NextArrow = (props) => {
     const { className, onClick } = props;
