@@ -24,7 +24,7 @@ export const teamMembers = [
     { position: 'MANAGER ', profession:'(PHOTOGRAPHY)', name: 'METHARA WANIGASINGHE', image: 'MetharaWanigasinghe.jpg' },
     { position: 'MANAGER ', profession:'(PUBLIC RELATIONS)', name: 'NADEESHA KULASEKARA', image: 'NadeeshaKulasekara.jpg' },
     { position: 'MANAGER ', profession:'(ANNOUNCING & DUBBING)', name: 'AVINDYA DEVINDI', image: 'AvindyaDevindi.jpg' },
-    { position: 'MANAGER ', profession:'(WEB MASTER)', name: 'LAKINDU', image: '.jpg' },
+    { position: 'WEB MASTER', profession:'', name: 'LAKINDU BANNEHEKA', image: 'LakinduBanneheka.jpeg' },
   ];
   
  export const hrSubcommittee = [

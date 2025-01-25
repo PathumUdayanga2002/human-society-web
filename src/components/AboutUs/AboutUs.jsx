@@ -4,6 +4,7 @@ import professor from "../../assets/professor.jpg";
 import timeline2 from "../../assets/timeline2.jpg";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import { Presetcommittee } from "../../data/PresentCommittee";
 
 const AboutUs = () => {
   return (
@@ -138,7 +139,7 @@ const AboutUs = () => {
               {" "}
               PRESENT COMMITTEE
             </h1>
-            <div className="relative group h-[700px] sm:h-[650px]">
+            <div className="relative group h-[700px] sm:h-[940px]  ">
               
               {/* Hover Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
@@ -150,7 +151,7 @@ const AboutUs = () => {
               </div>
 
               <div className="grid grid-cols-3 border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60 rounded-lg overflow-hidden shadow-lg">
-                {committeeData.map((d) => (
+                {Presetcommittee.map((d) => (
                   <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
                     <img
                       className=" border-solid border-4 border-pink-700 rounded-full w-16 h-16 "
@@ -184,38 +185,38 @@ const AboutUs = () => {
             </div> */}
           </div>
           {/* previous */}
-          <div className=" md:mt-16">
+          {/* <div className=" md:mt-16">
             <h1 className=" font-inter flex  justify-center text-center py-2 mt-5">
               {" "}
               PREVIOUS COMMITTEE
             </h1>
             <div className="relative group h-[700px] sm:h-[650px]">
               {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
+              {/* <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-500 rounded-xl"></div>
               
               {/* Centered Text */}
-              <div
+              {/* <div
                 className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <h1 className="text-white text-2xl sm:text-4xl font-bold">EXECUTIVE COMMITTEE 23/24</h1>
-              </div>
+              </div> */} 
 
-              <div className="grid grid-cols-3  border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60">
-                {committeeData.map((d) => (
-                  <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
+              {/* <div className="grid grid-cols-3  border-2 p-2 rounded-xl gap-3 items-center bg-fuchsia-900/60">
+                {/* {Presetcommittee.map((d) => ( */}
+                  {/* <div className="flex flex-col gap-2 items-center justify-center text-center font-inter p-3 text-white">
                     <img
                       className=" border-solid border-4 border-pink-600 rounded-full w-16 h-16 "
                       src={d.image}
                       alt="avatar"
-                    />
-                    <p className=" font-bold text-[12px] md:text-[16px]">
+                    /> */}
+                    {/* <p className=" font-bold text-[12px] md:text-[16px]">
                       {d.position}
                     </p>
                     <p className=" md:text-sm text-[10px]">{d.name}</p>
-                  </div>
-                ))}
+                  </div> */} 
+                {/* ))} 
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />
@@ -225,83 +226,83 @@ const AboutUs = () => {
 
 export default AboutUs;
 
-const committeeData = [
-  {
-    image: "avatar.png",
-    position: "President ",
-    name: "Kavindu Bandara",
-  },
-  {
-    image: "avatar.png",
-    position: "Vice President ",
-    name: "Isiwara Perera",
-  },
-  {
-    image: "avatar.png",
-    position: "Vice President ",
-    name: "Thulani Magedar",
-  },
-  {
-    image: "avatar.png",
-    position: "Secretary ",
-    name: "Dileka Sithsirini",
-  },
-  {
-    image: "avatar.png",
-    position: "Vice Secretary ",
-    name: "Danajani Silva",
-  },
-  {
-    image: "avatar.png",
-    position: "Junior Treasurer ",
-    name: "Himashi Yashodara",
-  },
-  {
-    image: "avatar.png",
-    position: "Co-Editor ",
-    name: "Harshana Rathnayaka",
-  },
-  {
-    image: "avatar.png",
-    position: "Co-Editor ",
-    name: "Amidu Deshan",
-  },
-  {
-    image: "avatar.png",
-    position: "Coordinators ",
-    name: "Dileka Sithsirini",
-  },
-  {
-    image: "avatar.png",
-    position: "Coordinators ",
-    name: "Dileka Sithsirini",
-  },
-  {
-    image: "avatar.png",
-    position: "Coordinators ",
-    name: "Dileka Sithsirini",
-  },
-  {
-    image: "avatar.png",
-    position: "Coordinators ",
-    name: "Dileka Sithsirini",
-  },
-];
-const coordinators = [
-  {
-    image: "avatar.png",
-    name: "Himashi Yashodara",
-  },
-  {
-    image: "avatar.png",
-    name: "Harshana Rathnayaka",
-  },
-  {
-    image: "avatar.png",
-    name: "Amidu Deshan",
-  },
-  {
-    image: "avatar.png",
-    name: "Amidu Deshan",
-  },
-];
+// const committeeData = [
+//   {
+//     image: "avatar.png",
+//     position: "President ",
+//     name: "Kavindu Bandara",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Vice President ",
+//     name: "Isiwara Perera",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Vice President ",
+//     name: "Thulani Magedar",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Secretary ",
+//     name: "Dileka Sithsirini",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Vice Secretary ",
+//     name: "Danajani Silva",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Junior Treasurer ",
+//     name: "Himashi Yashodara",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Co-Editor ",
+//     name: "Harshana Rathnayaka",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Co-Editor ",
+//     name: "Amidu Deshan",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Coordinators ",
+//     name: "Dileka Sithsirini",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Coordinators ",
+//     name: "Dileka Sithsirini",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Coordinators ",
+//     name: "Dileka Sithsirini",
+//   },
+//   {
+//     image: "avatar.png",
+//     position: "Coordinators ",
+//     name: "Dileka Sithsirini",
+//   },
+// ];
+// const coordinators = [
+//   {
+//     image: "avatar.png",
+//     name: "Himashi Yashodara",
+//   },
+//   {
+//     image: "avatar.png",
+//     name: "Harshana Rathnayaka",
+//   },
+//   {
+//     image: "avatar.png",
+//     name: "Amidu Deshan",
+//   },
+//   {
+//     image: "avatar.png",
+//     name: "Amidu Deshan",
+//   },
+// ];

@@ -1,0 +1,18 @@
+export const Presetcommittee = [
+    { position: 'PRESIDENT', name: 'THULANI MAGEDAR', image: 'Thulanimagedara.jpg' },
+    { position: 'SECRETARY', name: 'INDUSHA THENNAKOON', image: 'IndushaThennakoon.jpg' },
+    { position: 'JUNIOR TREASURER', name: 'MADHUSHIKA DISSANAYAKE', image: 'MadushikaDissanayake.jpg' },
+    { position: '1ST VICE PRESIDENT', name: 'HARSHANA RATHNAYAKA', image: 'HarshanaRathnayaka.jpg' },
+    { position: 'VICE PRESIDENT', name: 'CHAMINDU JAYAHANSA', image: 'Chamindujayahansa.jpg' },
+    { position: 'VICE PRESIDENT', name: 'SRIMAL RANDIKA', image: 'SrimalWijekoon.jpg' },
+    { position: 'ASSISTANT SECRETARY', name: 'PARAMUDITHA MANATHUNGA', image: 'PramudithaManathunga.jpg' },
+    { position: 'A.JUNIOR TREASURER', name: 'HIMASHI YASHODHARA', image: 'HimashiPathirana.jpeg' },
+    { position: 'SENIOR EDITOR', name: 'THURUNU MARASINGHE', image: 'ThurunuYM.webp' },
+    { position: 'SENIOR EDITOR', name: 'RASAL DASANAYAKE', image: 'RasalDasanayake.jpg' },
+    { position: 'JUNIOR EDITOR', name: 'THISUN GUNATHILAKA', image: 'Thisun.jpg' },
+    { position: 'JUNIOR EDITOR', name: 'CHAMOD JAYAWEERA', image: 'man.jpg' },
+    { position: 'COORDINATOR', name: 'AMIDU DESHAN', image: 'AmiduDeshan.jpg' },
+    { position: 'COORDINATOR', name: 'HARSHINI LIYANAARACHCHI', image: 'HashiniTharushika.jpg' },
+    { position: 'COORDINATOR', name: 'ANUSHA MADHUWANTHI', image: 'AnushaMadhuwanthi.jpg' },
+    { position: 'COORDINATOR', name: 'CHIRATH UMAYANGA', image: 'Chirath.jpg' },
+];
