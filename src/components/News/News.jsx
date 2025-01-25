@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import { data } from "../../data/NewsOfHomePage";
 
 //rename repository
+//rename2
 
 const News = () => {
   const NextArrow = (props) => {
