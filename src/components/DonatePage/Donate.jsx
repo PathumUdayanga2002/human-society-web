@@ -19,7 +19,12 @@ const DonationCard = () => {
               </div>
 
               <div className="text-center">
-                <label className="block text-gray-600 text-sm mb-1">Card Number</label>
+                <label className="block text-gray-600 text-sm mb-1">Bank Name</label>
+                <div className="text-xl font-semibold text-gray-900">PEOPLE'S BANK</div>
+              </div>
+
+              <div className="text-center">
+                <label className="block text-gray-600 text-sm mb-1">Account Number</label>
                 <div className="text-xl font-semibold text-gray-900">055-2-001-1-0028705</div>
               </div>
 
