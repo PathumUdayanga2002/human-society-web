@@ -15,7 +15,7 @@ const DonationCard = () => {
             <div className="space-y-6">
               <div className="text-center">
                 <label className="block text-gray-600 text-sm mb-1">Card Holder Name</label>
-                <div className="text-xl font-semibold text-gray-900">John Doe</div>
+                <div className="text-xl font-semibold text-gray-900">MADHUSHIKA DISSANAYAKE</div>
               </div>
 
               <div className="text-center">
