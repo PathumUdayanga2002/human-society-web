@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer';
 
 const DonationCard = () => {
   return (
-    <div className="min-h-screen flex flex-col py-[50px]">
+    <div className="min-h-screen flex flex-col py-[50px] ">
       <Navbar />
 
       <main className="flex-grow py-16 bg-gray-50">
@@ -34,7 +34,7 @@ const DonationCard = () => {
         </div>
       </main>
 
-      <Footer />
+      <div className='mt-3 -mb-[100px]'><Footer /></div>  
     </div>
   );
 };

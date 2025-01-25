@@ -1,0 +1,5 @@
+export const newsSegments = [
+    { id: 1, title: "BRINGING A JOY TO CHILDREN WITH HUMANE AWURUDU 2024", content: `Humane අවුරුදු '24 organized by the Humane Society of University of Kelaniya to support a children's home and offer care to those who need it most.`, link: 'https://www.facebook.com/humaneUok/posts/pfbid02PXsThxjcg62BHhXo64WTAqcbjcQZ5MKzFdWmWvuc4PZFN5bioUViLeeera6AExMhl' },
+    { id: 2, title: "ANNOUNCING THE WINNERS OF PAWS AND COLORS COMPETITION", content: `A huge congratulations to Nadeesha Kulasekara, the Winner - Essay/ Article/ Short Stories (English)  `, link: 'https://www.facebook.com/humaneUok/posts/pfbid02RSHKirmmFm35VXgYsPKf7joptNEGRvcbCxhVzNpZKHZgJf9X3fz7qUiq7HQpgzafl' },
+    { id: 3, title: `MARINE HARMONY PHASE I WAS COMPLETED SUCCESSFULLY`, content: `The first phase of Project Marine Harmony, organized by the Humane Society of the University of Kelaniya, has been Successfully Completed! `, link: 'https://www.facebook.com/humaneUok/posts/pfbid032Lvn6tAUTZfBzkuXouheA61xXCQkcNx1e1LppbqU2tn4DPNGhX7rVAtaq4wr2xoRl' },
+     ];
